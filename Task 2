@@ -13,11 +13,11 @@ export LANG=en_US.UTF-8
 2. Setup sources
 apt-cache policy | grep universe
 
-Enable the U repository through these instructions.
+3.Enable the U repository through these instructions.
 sudo apt install software-properties-common
 sudo add-apt-repository universe
 
-Adding ROS2 repository to the system
+4.Adding ROS2 repository to the system
 
 sudo apt update && sudo apt install curl gnupg2 lsb-release
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
